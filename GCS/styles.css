@@ -1,0 +1,51 @@
+/* Base colors that adapt to system theme */
+:root {
+    -primary-color: system-color(WindowText);
+    -secondary-color: system-color(Highlight);
+    -background-color: system-color(Window);
+    -text-color: system-color(WindowText);
+}
+
+QWidget {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: "Segoe UI";
+}
+
+QGroupBox {
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    margin-top: 10px;
+    padding-top: 15px;
+    font: bold 14px;
+    color: var(--secondary-color);
+}
+
+QProgressBar {
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+}
+
+QLabel {
+    font: 12px;
+    color: var(--text-color);
+}
+
+QPushButton {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border-radius: 4px;
+    padding: 5px;
+    min-width: 80px;
+}
+
+QScrollArea {
+    border: none;
+    background: transparent;
+}
