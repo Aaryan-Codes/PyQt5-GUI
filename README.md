@@ -44,7 +44,7 @@ Each application is self-contained and lives in its own subdirectory. To run eit
 
 ```bash
 # Step into the app directory
-cd ground_control_station  # or cd thrust_stand_app
+cd GCS  # or cd thrust_stand_app
 
 # Install dependencies
 pip install -r requirements.txt
