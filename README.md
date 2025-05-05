@@ -13,7 +13,7 @@ Each application is modular, cross-platform, and built using **Python (PyQt5)** 
 
 | Application                  | Description                                                                                      | Link to Details          |
 |-----------------------------|--------------------------------------------------------------------------------------------------|--------------------------|
-| **Ground Control Station**  | A desktop interface to visualize UAV telemetry like GPS, battery, motor status, and attitude     | [Go to GCS UI](./ground_control_station/README.md) |
+| **Ground Control Station**  | A desktop interface to visualize UAV telemetry like GPS, battery, motor status, and attitude     | [Go to GCS UI](./GCS/README.md) |
 | **Thrust Stand App**        | A test bench companion app for real-time telemetry from thrust stands, motor rigs, or simulators | [Go to Thrust Stand UI](./thrust_stand_app/README.md) |
 
 ---
