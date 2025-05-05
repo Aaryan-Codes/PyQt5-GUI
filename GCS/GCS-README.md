@@ -1,6 +1,4 @@
-# Ground Control Station (GCS) – Project Overview & Design Insights
-
-## 📘 Overview
+# Ground Control Station (GCS) – 📘 Overview
 
 The Ground Control Station (GCS) is a modular desktop application built using **PyQt5**, designed to provide a real-time interface for monitoring UAV telemetry and sensor data. It simulates a working ground station setup with key visual elements such as aircraft attitude, GPS status, battery performance, and motor diagnostics — all delivered through intuitive UI widgets.
 
@@ -8,11 +6,11 @@ Currently, the app uses **simulated (dummy) data** to help us prototype and vali
 
 ---
 
-## 🧠 Why We Built It This Way
+## 🧠 Design Decisions & Rationale
 
 We followed a modular design philosophy, similar to what is commonly seen in aviation tools like QGroundControl. Here’s a quick look at the key design choices and why they made sense:
 
-| **Design Area**          | **Our Choice**                                   | **Why It Works**                                                                 |
+| **Design Decision**          | **Chosen Approach**                                   | **Rationale**                                                                 |
 |--------------------------|--------------------------------------------------|----------------------------------------------------------------------------------|
 | **UI Framework**         | PyQt5                                            | Offers a powerful, flexible GUI toolkit with support for widgets, threading, and web views |
 | **Architecture**         | Component-based (each widget is self-contained)  | Makes the app easier to maintain, extend, and debug                             |
